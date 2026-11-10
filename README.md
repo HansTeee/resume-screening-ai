@@ -7,8 +7,22 @@ presenting your real experience more clearly.
 Runs locally (see [Running locally](#running-locally-windows-cmd)). No upload
 needed to try it: click **"Try the sample"** for a synthetic resume and posting.
 
-<!-- Add a screenshot: save it as docs/screenshot.png, then replace this comment with:
-![Screenshot](docs/screenshot.png) -->
+### Screenshots
+
+*The author's own resume scored against the bundled sample posting (a
+fictional Junior ML Engineer role).*
+
+**Inputs**: resume upload, pasted posting, and the expectations panel above them.
+
+![Input screen: resume upload, job posting text area and Analyse button](docs/screenshot.png)
+
+**Score and breakdown**: overall estimate, the four weighted components, and matched skills.
+
+![Match estimate of 53/100 with component bars for skills, experience, education and overall fit](docs/screenshot_2.png)
+
+**Gaps and suggestions**: skills the posting mentions that the resume doesn't, prioritised suggestions, and the raw numbers.
+
+![Missing skills as amber chips, a numbered list of suggestions, and the raw-numbers table](docs/screenshot_3.png)
 
 ## What it does
 
