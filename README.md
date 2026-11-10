@@ -1,28 +1,14 @@
----
-title: Resume Match Analyzer
-emoji: 📄
-colorFrom: blue
-colorTo: green
-sdk: streamlit
-sdk_version: 1.67.0
-python_version: "3.13"
-app_file: app.py
-pinned: false
-license: mit
-preload_from_hub:
-  - sentence-transformers/all-mpnet-base-v2
----
-
 # Resume Match Analyzer
 
 A tool for **job seekers**: upload your resume, paste a job posting, and see how
 closely your resume's wording matches it, with specific suggestions for
 presenting your real experience more clearly.
 
-**Live demo:** https://huggingface.co/spaces/YOUR-HF-USERNAME/resume-match-analyzer
-*(no upload needed: click "Try the sample")*
+Runs locally (see [Running locally](#running-locally-windows-cmd)). No upload
+needed to try it: click **"Try the sample"** for a synthetic resume and posting.
 
-![Screenshot](docs/screenshot.png)
+<!-- Add a screenshot: save it as docs/screenshot.png, then replace this comment with:
+![Screenshot](docs/screenshot.png) -->
 
 ## What it does
 
@@ -258,4 +244,4 @@ with a reserved `example.com` email and no phone number or address.
 
 ## Licence
 
-MIT
+MIT. See [LICENSE](LICENSE).

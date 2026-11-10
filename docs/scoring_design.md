@@ -168,8 +168,8 @@ resume (MiniLM: 0.103), and its experience scores spread over 0.04-0.57
 rather than 0.06-0.37. Its experience ranking also puts the AI/ML posting
 first, which fits an ML-focused resume; MiniLM put MLOps first. The cost is
 ~1.1 s more per analysis and 350 MB more to download, acceptable for a tool
-that runs one analysis per click. The download is moved to build time
-with `preload_from_hub` in the Space config.
+that runs one analysis per click. The model downloads once (~1 min) on
+first use and is cached afterwards.
 
 ### Education: a bug found by measuring
 
