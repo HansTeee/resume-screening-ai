@@ -1,0 +1,13 @@
+[browser]
+# Don't send Streamlit's anonymous usage statistics. The app makes a
+# privacy claim, so it shouldn't phone home about sessions either.
+gatherUsageStats = false
+
+[server]
+# Resumes are small. A 5 MB cap stops someone uploading huge files.
+maxUploadSize = 5
+
+[client]
+# Don't show Python error details in the browser. An exception message can
+# contain fragments of the data being processed, i.e. resume text.
+showErrorDetails = false

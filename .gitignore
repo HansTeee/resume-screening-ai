@@ -1,0 +1,12 @@
+# Python / environment
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+
+# Personal data: real resumes and job postings never get committed
+data/
+*.pdf
+# ...except the SYNTHETIC sample resume (invented person, see scripts/make_sample_resume.py)
+!docs/sample_resume.pdf

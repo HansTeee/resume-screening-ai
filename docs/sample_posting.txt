@@ -1,0 +1,18 @@
+Job Title: Junior Machine Learning Engineer
+Company: Bluefin Data Labs (fictional company - sample posting for demo purposes)
+Location: Metro Manila (Hybrid)
+
+Job Description & Responsibilities:
+- Build and train NLP models in Python and PyTorch for text classification and search.
+- Package models as REST APIs with FastAPI and deploy them using Docker.
+- Deploy and monitor services on AWS (EC2, S3).
+- Write SQL to prepare training datasets from our data warehouse.
+- Maintain unit tests and CI/CD pipelines for model code.
+- Work with senior engineers to improve model accuracy and latency.
+
+Minimum Qualifications:
+- Bachelor's degree in Computer Science, Computer Engineering, or a related field.
+- Solid Python and SQL; experience with PyTorch or TensorFlow.
+- Familiarity with Docker and at least one cloud platform (AWS preferred).
+- Git and Linux command line.
+- Clear communication and willingness to learn.
