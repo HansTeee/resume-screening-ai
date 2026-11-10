@@ -122,6 +122,16 @@ treat the conclusions as directional.
 | pypdf      | Text in internal drawing order. EDUCATION and SKILLS headings came out back-to-back with the skills list under EDUCATION; date ranges attached to the wrong jobs; summary paragraph at the very end. |
 | pdfplumber | Correct top-to-bottom reading order; every heading next to its content; dates on the right lines. **Chosen.** |
 
+Follow-up test on a synthetic **two-column** resume: pdfplumber reads each
+line straight across the page, so the columns interleaved ("SKILLS
+EXPERIENCE" / "Python, SQL Data Analyst Intern...") and only 1 of 3
+sections was detected. `parser._find_column_gutter()` now looks for a
+vertical gap that no word crosses and, if found, reads the left column then
+the right. After the fix all 3 sections were detected; single-column files
+(including the real resume) are unaffected because full-width lines cross
+every candidate gap. Three-column layouts and full-width headers above
+columns are still not handled.
+
 ### Token truncation
 
 `all-MiniLM-L6-v2` truncates at 256 tokens, `all-mpnet-base-v2` at 384. The
